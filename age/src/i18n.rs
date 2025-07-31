@@ -1,9 +1,12 @@
+#[cfg(feature = "i18n")]
 use i18n_embed::{
     fluent::{fluent_language_loader, FluentLanguageLoader},
     unic_langid::LanguageIdentifier,
     I18nEmbedError, LanguageLoader, Localizer,
 };
+#[cfg(feature = "i18n")]
 use lazy_static::lazy_static;
+#[cfg(feature = "i18n")]
 use rust_embed::RustEmbed;
 
 #[derive(RustEmbed)]

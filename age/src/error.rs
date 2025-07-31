@@ -4,7 +4,7 @@ use std::collections::HashSet;
 use std::fmt;
 use std::io;
 
-use crate::{wfl, wlnfl};
+use crate::{error_fmt::{error_string, error_string_with_args}, wfl, wlnfl};
 
 #[cfg(feature = "plugin")]
 use age_core::format::Stanza;
