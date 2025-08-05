@@ -30,8 +30,7 @@ rand.workspace = true
 rsa = { version = "0.9", default-features = false, optional = true }
 
 # - Conversion of public keys from Ed25519 to X25519
-curve25519-dalek = { version = "4", optional = true }
-
+curve25519-dalek = { git = "https://github.com/dalek-cryptography/curve25519-dalek", branch = "main", subdir = "curve25519-dalek", version = "4.2.0", optional = true }
 # Async I/O
 futures = { version = "0.3", optional = true }
 pin-project = "1"
