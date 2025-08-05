@@ -234,7 +234,7 @@ version = "3.4.2"
 criteria = "safe-to-deploy"
 
 [[exemptions.curve25519-dalek]]
-version = "4.1.0"
+version = "4.2.0"
 criteria = "safe-to-deploy"
 
 [[exemptions.curve25519-dalek-derive]]
