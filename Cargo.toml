@@ -26,7 +26,7 @@ base64 = "0.21"
 chacha20poly1305 = { version = "0.10", default-features = false, features = ["alloc"] }
 
 # - X25519 from RFC 7748
-x25519-dalek = { version = "2", features = ["static_secrets"] }
+x25519-dalek = { git = "https://github.com/dalek-cryptography/curve25519-dalek", tag = "curve25519-4.2.0", features = ["static_secrets"]}
 
 # - HKDF from RFC 5869 with SHA-256
 # - HMAC from RFC 2104 with SHA-256
